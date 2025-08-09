@@ -1,7 +1,3 @@
-var a = confirm ("Do you like our website ?");
+var a = prompt("What is your name?");
 
-if (a){
-    alert ("Thanks");
-}else{
-    alert ("Sorry");
-}
+document.write (a);
