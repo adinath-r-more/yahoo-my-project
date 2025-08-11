@@ -1,3 +1,3 @@
 function hello(){
-    document.write("hello Dear!");
+    document.write("hello Sir");
 }
