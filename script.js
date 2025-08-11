@@ -1,3 +1,4 @@
-var a = prompt("What is your name?");
-
-document.write (a);
+function hello(){
+    document.write("hello Sir");
+}
+hello();
