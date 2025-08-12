@@ -1,6 +1,3 @@
-var a = 1;
-
-do {
-    document.write("ADI MORE" + "<br>");
-    a++;
-} while (a <= 10)
+for(var a =1; a <= 10; a++){
+    document.write(a+ ") WellCome To My Code" + "<br>");
+}
