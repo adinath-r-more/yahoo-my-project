@@ -1,6 +1,3 @@
-for (var a = 1; a<= 5; a++){
-    for (var b = 1; b <= a; b++){
-        document.write(a + " ");
-    }
-    document.write("<br>");
-}
+var ary = [10,20,30,40,50];
+
+document.write(ary [2]);
