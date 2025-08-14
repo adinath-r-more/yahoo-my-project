@@ -1,7 +1,11 @@
-var a =["Sanjay", "Rahul", "Aniket","Soham", "Rohan"];
+// var a =["Sanjay", "Rahul", "Aniket","Soham"];
+var a = 20;
 
-document.write(a + "<br><br>");
+document.write(a +  "<br><br>");
 
-a.splice(2,0, "Rohit", "Ajay");
+if (Array.isArray (a)){
+    document.write("This Is An Array");
 
-document.write(a);
+}else{
+    document.write("This Is Not An Array");
+}
