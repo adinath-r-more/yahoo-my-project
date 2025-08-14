@@ -1,5 +1,7 @@
-var a =[ "Sanjay", "Aman", "Rohan", "Karan"];
+var a =[ "Baswaraj", "Arati", "Cat", "Dog"];
 
-a.sort();
+document.write(a + "<br><br>");
+
+a.reverse();
 
 document.write(a);
