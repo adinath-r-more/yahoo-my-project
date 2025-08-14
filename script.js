@@ -1,3 +1,5 @@
-var ary = [10,20,30,40,50];
+var a =[ "Sanjay", "Aman", "Rohan", "Karan"];
 
-document.write(ary [2]);
+a.sort();
+
+document.write(a);
