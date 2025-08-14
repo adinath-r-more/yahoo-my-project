@@ -1,10 +1,7 @@
-var a = ["Sanjay", "Aman", "Rohit"];
-var b = ["Rahul", "Yogesh"];
+var a =["Sanjay", "Rahul", "Aniket","Soham", "Rohan"];
 
-var c =a.concat (b);
+document.write(a + "<br><br>");
 
-document.write(c + "<br><br>");
+var b = a.slice (0,3);
 
-var d = c.join(" / ");  //yaha pr space ya kuch bhi add kar sakate hai
-
-document.write(d);  
+document.write(b);
