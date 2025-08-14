@@ -1,7 +1,7 @@
-var a =[ "Baswaraj", "amati", "Cat", "Dog"];
+var a =[ "Baswaraj", "amati", "Rohit", "Soham"];
 
 document.write(a + "<br><br>");
 
-a.pop();
+a.push("Rahul");
 
 document.write(a);
