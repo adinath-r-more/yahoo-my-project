@@ -1,12 +1,7 @@
-var a =[ "Baswaraj", "Amati", "Rohit", "Soham"];
+var a = ["Sanjay", "Aman", "Rohit"];
+var b = ["Rahul", "Yogesh"];
+var d = ["Neha", "Mahima"];
 
-document.write(a + "<br><br>");
+var c = a.concat(b,d);
 
-a.shift();
-
-document.write(a + "<br><br>");
-
-a.unshift("Rahul");
-
-document.write(a);
-
+document.write(c);
