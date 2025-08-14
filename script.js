@@ -1,7 +1,12 @@
-var a =[ "Baswaraj", "amati", "Rohit", "Soham"];
+var a =[ "Baswaraj", "Amati", "Rohit", "Soham"];
 
 document.write(a + "<br><br>");
 
-a.push("Rahul");
+a.shift();
+
+document.write(a + "<br><br>");
+
+a.unshift("Rahul");
 
 document.write(a);
+
