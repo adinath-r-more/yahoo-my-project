@@ -1,11 +1,5 @@
-// var a =["Sanjay", "Rahul", "Aniket","Soham"];
-var a = 20;
+var a = ["Sanjay", "Aman", "Ravi", "Neha", "Aman"];
+document.write(a+ "<br>");
 
-document.write(a +  "<br><br>");
-
-if (Array.isArray (a)){
-    document.write("This Is An Array");
-
-}else{
-    document.write("This Is Not An Array");
-}
+var b = a.indexOf ("Aman", 2);
+document.write(b);
