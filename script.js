@@ -1,5 +1,5 @@
 var a = ["Sanjay", "Aman", "Ravi", "Neha", "Aman"];
-document.write(a+ "<br>");
+document.write(a+ "<br><br>");
 
-var b = a.indexOf ("Aman", 2);
-document.write(b);
+var c = a.lastIndexOf ( "Ravi", 2);
+document.write(c+ "<br>");
