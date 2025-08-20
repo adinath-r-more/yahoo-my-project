@@ -1,5 +1,11 @@
-var a = ["Sanjay", "Aman", "Ravi", "Neha", "Aman"];
-document.write(a+ "<br><br>");
+var ages =[10,13,18,25];
+document.writeln(ages + "<br><br>");
 
-var b = a.includes ( "Aman");
-document.write(b+ "<br>");
+var b = ages.some (checkAdult);
+    document.writeln(b+ "<br><br>");
+
+    function checkAdult (age){
+        return age >= 10;
+    }
+        
+  
