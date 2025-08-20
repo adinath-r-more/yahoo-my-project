@@ -1,11 +1,11 @@
-var ages =[100,130,180,250];
+var ages =[10,23,19,30];
 document.writeln(ages + "<br><br>");
 
-var b = ages.findIndex (checkAdult);
+var b = ages.filter (checkAdult);
     document.writeln(b+ "<br><br>");
 
     function checkAdult (age){
-        return age >= 129;
+        return age >= 20;
     }
         
   
