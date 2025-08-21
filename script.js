@@ -1,3 +1,5 @@
 var a =["Rahul", "Karan", "Neha", "Aman"];
-a.toString();
+
+a.fill("Rakesh");
+
 document.writeln(a);
