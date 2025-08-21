@@ -1,5 +1,5 @@
-var a =["Rahul", "Karan", "Neha", "Aman"];
+var a =["Banana", "Apple", "Orange", "Greps"];
 
-a.fill("Rakesh");
-
-document.writeln(a);
+a.forEach(function (value,index){
+    document.writeln(index+ " :- "+ value + "<br><br>");
+});
