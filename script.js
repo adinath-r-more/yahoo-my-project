@@ -1,11 +1,9 @@
 var a = {
-    fname : 'Rahul',
+    fname : 'Rakes',
     lname : 'More',
     age : 28,
-    country : 'india',
-    salary : function(){
-        return 7000;
+    fullname : function() {
+        return this.fname + " Bhau " + this.lname;
     }
-
 }
-document.writeln(a.salary());
+document.writeln(a.fullname());
