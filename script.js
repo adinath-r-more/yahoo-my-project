@@ -3,7 +3,9 @@ var a = {
     lname : 'More',
     age : 28,
     country : 'india',
-    favmovies : ['Dhoom','Shlay','Hum']
+    salary : function(){
+        return 7000;
+    }
 
 }
-document.writeln(a.favmovies[1]);
+document.writeln(a.salary());
