@@ -1,11 +1,7 @@
-var a = {
-    fname : 'Rakes',
-    lname : 'More',
-    age : 28,
-   
-    living : {
-        'city' : 'Mumbai',
-        'contry' : 'India'
-    }
-}
-    document.writeln(a.living.contry);
+var person = new Object();
+
+person.firstName = 'Rohit';
+person.lastName = 'Jadhav';
+person.age = 25;
+
+console.log(person);
