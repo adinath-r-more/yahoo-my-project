@@ -1,8 +1,10 @@
-const a =[20,25,35];
+const a ={
+    name : "Ramesh",
+    age : 45
+};
+console.log(a);
 
-document.writeln(a + "<br><br>");
+a.name = "Avi";
+a.age = 55;
 
-a [1] = 40;
-a [0] = 22;
-
-document.writeln(a);
+console.log(a);
