@@ -1,10 +1,12 @@
-var ary = [11,5,9,20];
+var ary = [
+    {fname:"Yahoo", lname : "Baba"},
+    {fname:"Amu", lname : "Ratut"},
+    {fname:"Karan", lname : "Sharma"}
+];
 
-document.writeln(ary + "<br><br>");
-
-var b = ary.map (Text);
+var b = ary.map(Text);
 document.writeln(b);
 
-function Text (x){
-    return x * 10;
+function Text (x) {
+    return x.fname + " " + x.lname;
 }
