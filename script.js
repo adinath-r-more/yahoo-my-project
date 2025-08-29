@@ -1,4 +1,4 @@
 var str = "javascript Is a Great Language"
-var a = str.endsWith("lang");
+var a = str.search("Great");
 
 document.writeln(a);
