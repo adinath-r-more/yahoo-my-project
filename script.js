@@ -1,12 +1,4 @@
-var ary = [
-    {fname:"Yahoo", lname : "Baba"},
-    {fname:"Amu", lname : "Ratut"},
-    {fname:"Karan", lname : "Sharma"}
-];
+var str = "Javascript Is a Great Language"
+var a = str.length;
 
-var b = ary.map(Text);
-document.writeln(b);
-
-function Text (x) {
-    return x.fname + " " + x.lname;
-}
+document.writeln(a);
