@@ -1,4 +1,4 @@
-var str = "JAVASCRIPT Is a Great Language"
-var a = str.toLowerCase();
+var str = "javascript Is a Great Language"
+var a = str.toUpperCase();
 
 document.writeln(a);
