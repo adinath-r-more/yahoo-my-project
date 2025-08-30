@@ -1,4 +1,4 @@
-var str = "javascript Is a Great Language"
-var a = str.replace("javascript", "HTML");
+var str = "                 javascript                   "
+var a = str.trim();
 
-document.writeln(a);
+alert(a);
