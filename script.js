@@ -1,4 +1,4 @@
-var str = "javascript Is a Great Is Language Is"
-var a = str.indexOf("Is");
+var str = "javascript Is a Great Language"
+var a = str.replace("javascript", "HTML");
 
-document.writeln(a);  //first wale Is tak he Count hog
+document.writeln(a);
