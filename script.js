@@ -1,5 +1,5 @@
-var str = "javascript is a great lang"
+var str = 50;
 
-var a = str.substring(3,7);
+var a = str.toString();
 
-document.writeln(a);
+document.writeln(a+ 20);
