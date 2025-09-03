@@ -1,4 +1,4 @@
-var str = "                 javascript                   "
-var a = str.trim();
+var str = "javascript is a great lang"
+var a = str.charAt(5);
 
-alert(a);
+document.writeln(a);
