@@ -1,5 +1,5 @@
-var str = 50;
+var str = "javascript is a best lang";
 
-var a = str.toString();
+var a = str.valueOf();
 
-document.writeln(a+ 20);
+document.writeln(a);
