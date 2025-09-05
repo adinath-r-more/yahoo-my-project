@@ -1,4 +1,4 @@
-var a = true;
+var a = false;
 
 var num =Number(a);
 
