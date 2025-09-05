@@ -1,5 +1,5 @@
 var a = 25;
 
-var num =Number.isFinite(a);
+var num =Number.isInteger(a);
 
 document.writeln(num);
