@@ -1,5 +1,5 @@
-var a = 25;
+var a = 5.3157469;
 
-var num =Number.isInteger(a);
+var num = a.toFixed(a);
 
 document.writeln(num);
