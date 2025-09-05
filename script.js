@@ -1,5 +1,5 @@
-var a = "10.20 year";
+var a = 25;
 
-var num =parseFloat(a);
+var num =Number.isFinite(a);
 
 document.writeln(num);
