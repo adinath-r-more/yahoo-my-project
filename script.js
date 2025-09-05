@@ -1,5 +1,5 @@
-var str = "javascript is a best lang";
+var a = 99;
 
-var a = str.search();
+var num =Number(a);
 
-document.writeln(a);
+document.writeln(num + 10);
