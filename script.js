@@ -1,8 +1,5 @@
-var a = "50 ,80, 22";
-var b = "He Was 50";
+var a = "10.20 year";
 
-var num =parseInt(a);
-var abc =parseInt(b);
+var num =parseFloat(a);
 
-document.writeln(num + "<br><br>");
-document.writeln(abc);
+document.writeln(num);
