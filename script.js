@@ -1,3 +1,3 @@
-var a =Math.abs(-5.25);
+var a = Math.PI;
 
 document.writeln(a);
