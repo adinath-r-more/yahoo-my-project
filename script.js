@@ -1,3 +1,3 @@
-var a =Math.floor(Math.random()* 100)+1;
+var a =Math.abs(-5.25);
 
 document.writeln(a);
