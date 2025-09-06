@@ -1,3 +1,3 @@
-var a =Math.ceil (1.22);
+var a =Math.floor (5.75);
 
 document.writeln(a);
