@@ -1,3 +1,3 @@
-var a =Math.floor (5.75);
+var a =Math.round (3.60);
 
 document.writeln(a);
