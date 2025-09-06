@@ -1,3 +1,3 @@
-var a =Math.cbrt (125);
+var a =Math.pow (2,4);
 
 document.writeln(a);
