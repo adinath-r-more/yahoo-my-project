@@ -1,3 +1,3 @@
-var a =Math.min (50, 60, 55, 35, 80);
+var a =Math.sqrt (25);
 
 document.writeln(a);
