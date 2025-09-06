@@ -1,3 +1,3 @@
-var a =Math.max (4, 20, 5, 50, 41);
+var a =Math.min (50, 60, 55, 35, 80);
 
 document.writeln(a);
