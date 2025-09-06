@@ -1,3 +1,3 @@
-var a =Math.round (3.60);
+var a =Math.trunc (4.55);
 
 document.writeln(a);
