@@ -1,3 +1,3 @@
 var now = new Date();
 
-document.writeln(now.toDateString()); 
+document.writeln(now.getDate()); 
