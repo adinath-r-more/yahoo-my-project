@@ -1,5 +1,3 @@
 var now = new Date();
 
-now.setHours(12);
-
-document.writeln(now);
+document.writeln(now.getDate() + "/" + now.getMonth()+ "/" + now.getFullYear());
