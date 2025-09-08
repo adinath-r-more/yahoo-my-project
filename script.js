@@ -1,3 +1,3 @@
-var a = Math.PI;
+var now = new Date();
 
-document.writeln(a); 
+document.writeln(now); 
