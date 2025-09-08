@@ -1,3 +1,5 @@
 var now = new Date();
-now.setFullYear(2024);
+
+now.setHours(12);
+
 document.writeln(now);
