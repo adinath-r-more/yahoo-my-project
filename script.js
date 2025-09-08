@@ -1,3 +1,3 @@
 var now = new Date();
 
-document.writeln(now.getHours());
+document.writeln(now.getMinutes());
