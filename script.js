@@ -1,3 +1,3 @@
 var now = new Date();
-now.setDate(7);
+now.setFullYear(2024);
 document.writeln(now);
