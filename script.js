@@ -1,3 +1,3 @@
 var now = new Date();
-
-document.writeln(now.getMilliseconds());
+now.setDate(7);
+document.writeln(now);
