@@ -1,3 +1,3 @@
 var now = new Date();
 
-document.writeln(now.getDate());
+document.writeln(now.getMonth());
