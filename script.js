@@ -1,3 +1,4 @@
-var now = new Date();
+var element;
+element = document.getElementById("footer").attributes;
 
-document.writeln(now.setMinutes(4));
+console.log(element);
