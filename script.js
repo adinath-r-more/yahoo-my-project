@@ -1,6 +1,4 @@
+var element;
+document.querySelector("#header").style.color;
 
-document.getElementById("header").onclick="abc";
-
-function abc(){
-    document.getElementById("header").style.background="red";
-}
+console.log(element);
