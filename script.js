@@ -1,4 +1,4 @@
 var element;
-document.querySelector("#header").style.color;
+document.querySelector("#nav").style.color;
 
 console.log(element);
