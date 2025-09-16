@@ -1,4 +1,4 @@
 var element;
-document.querySelector("#nav").style.color;
+element=document.getElementById("footer").innerHTML;
 
 console.log(element);

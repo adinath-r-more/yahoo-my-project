@@ -1,27 +1,99 @@
-body {
-  font-family: Arial, sans-serif;
+/* Reset default browser styles */
+* {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
-header {
-  background: #4CAF50;
-  color: white;
+/* Wrapper */
+#wrapper {
+  width: 1000px;
+  margin: 0 auto;
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+#header {
+  background: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Menu */
+#menu {
+  background: #444;
+}
+#menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+#menu ul li {
+  margin: 0 15px;
+}
+#menu ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+}
+#menu ul li a:hover {
+  background: #666;
+  border-radius: 5px;
+}
+
+/* Content and Sidebar Layout */
+#content {
+  width: 70%;
+  float: left;
+  padding: 20px;
+  background: #fff;
+}
+
+#content h2 {
+  margin-bottom: 10px;
+  color: #333;
+}
+
+#content img {
+  max-width: 100%;
+  margin: 10px 0;
+}
+
+#content .list {
+  margin-top: 10px;
+  padding-left: 20px;
+}
+
+/* Sidebar */
+#sidebar {
+  width: 30%;
+  float: left;
+  padding: 20px;
+  background: #eee;
+}
+#sidebar ul {
+  list-style: none;
+}
+#sidebar ul li {
+  margin-bottom: 10px;
+}
+#sidebar ul li a {
+  text-decoration: none;
+  color: #333;
+}
+#sidebar ul li a:hover {
+  color: #0077cc;
+}
+
+/* Footer */
+#footer {
+  clear: both;
+  background: #333;
+  color: #fff;
   text-align: center;
   padding: 15px;
-}
-
-main {
-  padding: 20px;
-  min-height: 60vh; /* main content area height */
-}
-
-footer {
-  background: #333;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  position: relative;
-  bottom: 0;
-  width: 100%;
+  margin-top: 10px;
 }
