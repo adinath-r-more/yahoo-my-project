@@ -1,4 +1,4 @@
 var element;
-element=document.getElementById("footer").innerText;
+element=document.getElementById("header").getAttribute ("class");
 
 console.log(element);
