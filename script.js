@@ -1,4 +1,4 @@
 var element;
-element=document.getElementById("footer").innerHTML;
+element=document.getElementById("footer").innerText;
 
 console.log(element);
