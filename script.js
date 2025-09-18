@@ -1,5 +1,5 @@
 var element;
-document.querySelector("#header").classList.remove("xyz");
+document.querySelector("#header").classList.remove("xyz","efg");
 
 element = document.querySelector("#header").classList;
 
