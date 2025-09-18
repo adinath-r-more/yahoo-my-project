@@ -1,6 +1,6 @@
 var element;
-document.querySelector("#header").className = "abc xyz";
+document.querySelector("#header").classList = "abc xyz";
 
-element = document.querySelector("#header").className;
+element = document.querySelector("#header").classList;
 
 console.log(element); 
