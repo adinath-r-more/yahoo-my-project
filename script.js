@@ -1,8 +1,6 @@
 var element;
+document.querySelector("#header").className = "abc xyz";
 
-document.querySelector("#header").style.backgroundColor = "tan";
-document.querySelector("#header").style.color = "green";
-
-element = querySelector("#header").style.color;
+element = document.querySelector("#header").className;
 
 console.log(element); 
