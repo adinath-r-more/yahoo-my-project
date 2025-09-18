@@ -1,5 +1,5 @@
 var element;
-document.querySelector("#header").classList = "abc xyz";
+document.querySelector("#header").classList.add("xyz");
 
 element = document.querySelector("#header").classList;
 
