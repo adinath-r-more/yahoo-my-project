@@ -1,7 +1,8 @@
 var element;
 
-document.querySelector("#header").innerHTML = "<h1>WoW</h1>";
+document.querySelector("#header").style.backgroundColor = "tan";
+document.querySelector("#header").style.color = "green";
 
-element=document.querySelector("#header");
+element = querySelector("#header").style.color;
 
-console.log(element);
+console.log(element); 
