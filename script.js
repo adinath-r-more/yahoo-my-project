@@ -1,10 +1,11 @@
 var element;
 
-// document.getElementById("header").addEventListener("click",abc);
+document.getElementById("header").addEventListener("click",abc);
 
-// function abc(){
-// document.getElementById("header").classList.add("xxy");
-// document.getElementById("header").classList("yxx");
+function abc(){
+document.getElementById("header").classList.toggle("xyz");
 
-var a = document.getElementById("header").classList.length;
+var a = document.getElementById("header").classList;
+
 console.log(a);
+}
