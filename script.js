@@ -4,7 +4,7 @@ var element;
 
 // function abc(){
 // document.getElementById("header").classList.add("xxy");
-document.getElementById("header").classList.remove("yxx" , "abc");
+// document.getElementById("header").classList("yxx");
 
-var a = document.getElementById("header").classList;
+var a = document.getElementById("header").classList.length;
 console.log(a);
