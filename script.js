@@ -1,6 +1,7 @@
 var element;
-document.querySelector("#header").classList.remove("xyz","efg");
 
-element = document.querySelector("#header").classList;
+document.getElementById("header").addEventListener("click",abc);
 
-console.log(element); 
+function abc(){
+document.getElementById("header").classList.add("xxy");
+}
