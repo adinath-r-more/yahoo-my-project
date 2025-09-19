@@ -5,6 +5,6 @@ var element;
 // function abc(){
 // document.getElementById("header").classList.toggle("xyz");
 
-var a = document.getElementById("header").classList.item(2);
+var a = document.getElementById("header").classList.contains("abcttt");
 
 console.log(a);
