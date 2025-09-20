@@ -1,106 +1,57 @@
-/* Reset default browser styles */
+/* Basic reset/box sizing */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* Wrapper */
-#wrapper {
-  width: 1000px;
-  margin: 0 auto;
-  background: #f4f4f4;
+body {
   font-family: Arial, sans-serif;
-}
-
-/* Header */
-#header {
+  background-color: #f4f4f4;
   padding: 20px;
-  text-align: center; 
-}
-.abc{
-  background: crimson; 
-}
-.xyz{
-  background: yellow;
-}
-.efg{
-  background: blue;  
 }
 
-/* Menu */
-#menu {
-  background: #444;
-}
-#menu ul {
-  list-style: none;
-  display: flex;
-  justify-content: center;
-}
-#menu ul li {
-  margin: 0 15px;
-}
-#menu ul li a {
-  color: #fff;
-  text-decoration: none;
-  padding: 10px;
-  display: block;
-}
-#menu ul li a:hover {
-  background: #666;
-  border-radius: 5px;
+.container {
+  max-width: 800px;
+  margin: 0 auto;
 }
 
-/* Content and Sidebar Layout */
-#content {
-  width: 70%;
-  float: left;
-  padding: 20px;
-  background: #fff;
-}
-
-#content h2 {
-  margin-bottom: 10px;
-  color: #c30d0d;
-}
-
-#content img {
-  max-width: 100%;
-  margin: 10px 0;
-}
-
-#content .list {
-  margin-top: 10px;
-  padding-left: 20px;
-}
-
-/* Sidebar */
-#sidebar {
-  width: 30%;
-  float: left;
-  padding: 20px;
-  background: #eee;
-}
-#sidebar ul {
-  list-style: none;
-}
-#sidebar ul li {
-  margin-bottom: 10px;
-}
-#sidebar ul li a {
-  text-decoration: none;
-  color: #333;
-}
-#sidebar ul li a:hover {
-  color: #0077cc;
-}
-
-/* Footer */
-#footer {
-  clear: both;
-  background: #333;
-  color: #fff;
+h1 {
   text-align: center;
-  padding: 15px;
-  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.outer {
+  background-color: #ffd970; /* light yellowish */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.inner {
+  background-color: #ffcccc; /* light pinkish */
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.inner h3 {
+  color: #fff;
+  background-color: #0077cc;
+  display: inline-block;
+  padding: 5px 10px;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.box {
+  display: inline-block;
+  background-color: #e0e0e0; /* light grey */
+  color: #333;
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  margin: 5px;
+  border: 1px solid #999;
+  border-radius: 5px;
+  font-size: 24px;
 }
