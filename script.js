@@ -1,5 +1,5 @@
-document.getElementById("inner").parentElement.style.background = "red";
+document.getElementById("outer").children[0] .style.background = "red";
 
-var a = document.getElementById("inner").parentNode;
+var a = document.getElementById("outer").children;
 
 console.log(a);
