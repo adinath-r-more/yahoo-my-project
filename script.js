@@ -1,5 +1,5 @@
-// document.getElementById("outer").lastChild.style.background = "red";
+// document.getElementById("child").nextElementSibling.style.background = "red";
 
-var a = document.getElementById("outer").lastChild;
+var a = document.getElementById("child").nextElementSibling;
 
 console.log(a);
