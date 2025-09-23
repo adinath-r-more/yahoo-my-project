@@ -1,11 +1,9 @@
-var newElement = document.createElement("h4");
+var a = document.createElement("h2");
 
-var newText = document.createTextNode("This is just Text");
+var b = document.createTextNode("This Is Just Text");
 
-newElement.appendChild(newText);
-
-// document.getElementById("text").appendChild(newElement);
+a.appendChild(b);
 
 var target = document.getElementById("text");
 
-target.insertBefore(newElement,target.childNodes[0]);
+target.insertAdjacentElement("beforebegin",a);
