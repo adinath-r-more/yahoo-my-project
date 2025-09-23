@@ -6,6 +6,6 @@
 
 var target = document.getElementById("text");
 
-var newElement = "<h2> This Is Heading </h2>";
+var newText = "This Is Text ";
 
-target.insertAdjacentHTML("beforebegin",newElement);
+target.insertAdjacentText("afterend",newText);
