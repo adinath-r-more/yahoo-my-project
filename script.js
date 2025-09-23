@@ -1,9 +1,11 @@
-var a = document.createElement("h2");
+// var a = document.createElement("h2");
 
-var b = document.createTextNode("This Is Just Text");
+// var b = document.createTextNode("This Is Just Text");
 
-a.appendChild(b);
+// a.appendChild(b);
 
 var target = document.getElementById("text");
 
-target.insertAdjacentElement("beforebegin",a);
+var newElement = "<h2> This Is Heading </h2>";
+
+target.insertAdjacentHTML("beforebegin",newElement);
