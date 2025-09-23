@@ -1,11 +1,13 @@
-// var a = document.createElement("h2");
+var newElement = document.createElement("li");
 
-// var b = document.createTextNode("This Is Just Text");
+var newText = document.createTextNode("op in the Chart");
 
-// a.appendChild(b);
+newElement.appendChild(newText);
 
-var target = document.getElementById("text");
+var target = document.getElementById("list");
 
-var newText = "This Is Text ";
+var oldElement = target.children[1];
 
-target.insertAdjacentText("afterend",newText);
+// console.log(oldElement);
+
+target.replaceChild(newElement,oldElement);
