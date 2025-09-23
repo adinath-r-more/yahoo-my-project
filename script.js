@@ -4,6 +4,6 @@ var newText = document.createTextNode("This is just Text");
 
 newElement.appendChild(newText);
 
-console.log(newElement);
+document.getElementById("text").appendChild(newElement);
 
-console.log(newText);
+console.log(newElement);
