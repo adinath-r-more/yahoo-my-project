@@ -12,5 +12,8 @@ function aaa(element) {
 function bbb(element) {
     var x = element.value;
     document.getElementById("text").innerHTML = x;
-}
+} 
+function ccc(element) {
+   console.log("You Selected Some Text.");
+} 
   
