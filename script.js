@@ -9,4 +9,8 @@ function aaa(element) {
     var x = element.value;
     document.getElementById("text").innerHTML = x;
 }
+function bbb(element) {
+    var x = element.value;
+    document.getElementById("text").innerHTML = x;
+}
   
