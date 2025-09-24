@@ -1,7 +1,7 @@
-var target = document.getElementById("list-1").children[1];
+var patentElement = document.getElementById("text");
 
-var copyElement = target.cloneNode(true);
+var target = document.getElementById("abc");
 
-document.getElementById("list-2").appendChild(copyElement);
+var find = patentElement.contains(target);
 
-console.log(copyElement);
+console.log(find);
