@@ -1,13 +1,7 @@
-// var newElement = document.createElement("li");
+var target = document.getElementById("list-1").children[1];
 
-// var newText = document.createTextNode("op in the Chart");
+var copyElement = target.cloneNode(true);
 
-// newElement.appendChild(newText);
+document.getElementById("list-2").appendChild(copyElement);
 
-var target = document.getElementById("list");
-
-var oldElement = target.children[1];
-
-// console.log(oldElement);
-
-target.removeChild(oldElement);
+console.log(copyElement);
