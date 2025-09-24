@@ -1,7 +1,11 @@
-var target1 = document.getElementById("list-1").firstElementChild;
+function abc(element) {
+    element.style.background = "red";
+}
 
-var target2 = document.getElementById("list-2").children[1];
-
-var equal = target1.isEqualNode(target2);
-
-console.log(equal);
+function xyz(element) {
+    element.style.background = "";
+}
+function aaa(element) {
+    var x = element.value;
+    document.getElementById("text").innerHTML = x;
+}
