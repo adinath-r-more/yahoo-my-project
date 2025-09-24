@@ -1,5 +1,7 @@
-var target = document.getElementById("text");
+var target1 = document.getElementById("list-1").firstElementChild;
 
-var find = target.hasChildNodes();
+var target2 = document.getElementById("list-2").children[1];
 
-console.log(find);
+var equal = target1.isEqualNode(target2);
+
+console.log(equal);
