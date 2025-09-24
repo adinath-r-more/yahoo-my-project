@@ -1,7 +1,4 @@
-var patentElement = document.getElementById("text");
+var target = document.getElementById("text");
+var find = target.hasAttribute("class");
 
-var target = document.getElementById("abc");
-
-var find = patentElement.contains(target);
-
-console.log(find); 
+console.log(find);
