@@ -1,23 +1,9 @@
-function abc(element) {
-    element.style.background = "red";
-}
+var a = 0;
+setInterval(Anim, 500);
 
-function xyz(element) {
-    element.style.background = "";
-}
-function aaa(element) {
-    var x = element.value;
-    document.getElementById("text").innerHTML = x;
-}
-function bbb(element) {
-    var x = element.value;
-    document.getElementById("text").innerHTML = x;
-} 
-function ccc(element) {
-   console.log("You Selected Some Text.");
-}
+function Anim(){
+    a = a + 10;
 
-function submitFunction(){
-    var x =document.getElementById("fname").value;
-    alert("Hello" + x);
+ var target = document.getElementById("text");
+ target.style.marginLeft = a + 'px';
 }
