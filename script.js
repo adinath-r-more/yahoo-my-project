@@ -15,5 +15,9 @@ function bbb(element) {
 } 
 function ccc(element) {
    console.log("You Selected Some Text.");
-} 
-  
+}
+
+function submitFunction(){
+    var x =document.getElementById("fname").value;
+    alert("Hello" + x);
+}
