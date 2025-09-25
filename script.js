@@ -1,15 +1,5 @@
-var a = 0;
-var id = setInterval(Anim, 50);
+var id = setTimeout(abc , 3000);
 
-function Anim(){
-    a = a + 10;
-    if(a == 1500){
-        clearInterval(id);
-
-    }else{
-     var target = document.getElementById("text");
-        target.style.width = a + 'px';
-    }
-
-
+function abc(){
+    alert("Hello");
 }
