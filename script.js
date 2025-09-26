@@ -1,10 +1,10 @@
 
 function resizeFunction(){
     console.clear();
-    var iHeight = window.innerHeight;
-console.log('inner Height : ' + iHeight);
+    var iWidth = window.innerWidth;
+console.log('inner Width : ' + iWidth);
 
-var oHeight = window.outerHeight;
-console.log( 'outer Height : ' + oHeight); 
+// var oWidth = window.outerWidth;
+// console.log( 'outer Width : ' + oWidth); 
  
 }
