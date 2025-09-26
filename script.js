@@ -1,9 +1,5 @@
-var id = setTimeout(function(){
-     var target = document.getElementById("text");
-    target.style.width = "500px";
-} , 6000);
+var iHeight = window.innerHeight;
+console.log(iHeight);
 
-
-function StopAnimation(){
-    clearTimeout(id);
-}
+var oHeight = window.outerHeight;
+console.log(oHeight);
