@@ -1,10 +1,9 @@
-var mywindow;
+var myWindow;
 function openWindow(){
-    mywindow =  window.open("width=500px,height=200px, left=100px, top=100px");
-    mywindow.document.write("<p>This is My Window</p>");
+    myWindow =  window.open("width=200px,height=200px, left=30px, top=30px");
+    myWindow.document.write("<p>This is Mywindow.</p>");
 }
-function moveWindow(){
-   mywindow.moveBy(500,500);
-   mywindow.focus();
+function resizeWindow(){
+   myWindow.resizeTo();
 }
 
