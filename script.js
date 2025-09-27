@@ -1,3 +1,3 @@
 function scrollWindow(){
-    window.scrollBy(0,20);
+    window.scrollBy(0,-20);
 }
