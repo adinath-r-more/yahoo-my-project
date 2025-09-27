@@ -1,3 +1,8 @@
+var mywindow;
 function openWindow(){
-    window.open("http://www.yahoobaba.net");
+    mywindow =  window.open("http://www.yahoobaba.net");
 }
+function CloseWindow(){
+   mywindow.close();
+}
+
