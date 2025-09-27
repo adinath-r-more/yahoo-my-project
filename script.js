@@ -4,6 +4,6 @@ function openWindow(){
     myWindow.document.write("<p>This is Mywindow.</p>");
 }
 function resizeWindow(){
-   myWindow.resizeTo();
+   myWindow.resizeBy(100, 100);
 }
 
