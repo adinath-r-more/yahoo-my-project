@@ -1,3 +1,3 @@
 function scrollWindow(){
-    window.scrollTo(0,0);
+    window.scrollTo(0,50);
 }
