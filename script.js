@@ -1,1 +1,1 @@
-console.log(location.port);
+console.log(location.protocol);
