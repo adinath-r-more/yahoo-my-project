@@ -1,1 +1,1 @@
-console.log(location.search);
+console.log(history);
