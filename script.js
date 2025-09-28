@@ -1,3 +1,1 @@
-function scrollWindow(){
-    window.scrollTo(50,0);
-}
+console.log(location);
