@@ -1,1 +1,1 @@
-console.log(location.origin);
+console.log(location.pathname);
