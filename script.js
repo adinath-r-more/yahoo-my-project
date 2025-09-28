@@ -1,1 +1,1 @@
-console.log(location.protocol);
+console.log(location.search);
