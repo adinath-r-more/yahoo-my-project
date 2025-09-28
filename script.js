@@ -1,1 +1,1 @@
-console.log(location.pathname);
+console.log(location.port);
