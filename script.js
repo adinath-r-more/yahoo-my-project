@@ -1,1 +1,1 @@
-console.log(location.hash);
+console.log(location.hostname);
