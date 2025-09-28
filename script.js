@@ -1,1 +1,1 @@
-console.log(location.hostname);
+console.log(location.href);
