@@ -8,3 +8,9 @@
 body{
     font-family: arial;
 }
+
+#inner-box {
+ background: lightgreen;
+ width: 1000px;
+ height: 150px;
+}
