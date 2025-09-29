@@ -1,3 +1,4 @@
-function newFunction(){
-    location.replace("https://www.youtube.com/");
-}
+window.addEventListener('scroll',function(){
+    console.clear();
+    console.log("PageYOffset : " + window.pageYOffset);
+});
