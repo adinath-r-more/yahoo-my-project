@@ -1,4 +1,4 @@
 window.addEventListener('scroll',function(){
     console.clear();
-    console.log("PageYOffset : " + window.pageYOffset);
+    console.log("PageXOffset : " + window.pageXOffset);
 });
