@@ -1,1 +1,3 @@
-console.log(history.length);
+function BackFunction(){
+    history.back();
+}
