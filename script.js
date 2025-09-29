@@ -1,3 +1,3 @@
 function newFunction(){
-    location.assign("https://www.youtube.com/");
+    location.replace("https://www.youtube.com/");
 }
