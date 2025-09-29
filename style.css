@@ -2,5 +2,9 @@
     background: pink;
     width: 300px;
     height: 300px;
+    overflow: auto;
     border: 1px solid #000; 
+}
+body{
+    font-family: arial;
 }

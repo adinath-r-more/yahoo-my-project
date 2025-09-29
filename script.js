@@ -1,3 +1,7 @@
-var box = document.querySelector("#Box");
+const target = document.querySelector("#Box");
 
-console.log("Box offsetLeft : " + box.offsetLeft);
+target.addEventListener('scroll',() => {
+    console.clear();
+    console.log("scrollTop : " + target.scrollTop);
+    
+});
