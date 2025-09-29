@@ -1,3 +1,3 @@
-function GoFunction(){
-    history.go(2);
+function newFunction(){
+    location.reload();
 }
