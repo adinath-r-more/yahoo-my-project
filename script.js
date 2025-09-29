@@ -1,7 +1,3 @@
-function BackFunction(){
-    history.back();
-}
-
-function ForwardFunction(){
-    history.forward();
+function GoFunction(){
+    history.go(2);
 }
