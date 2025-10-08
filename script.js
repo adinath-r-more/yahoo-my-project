@@ -5,4 +5,4 @@ target.addEventListener('scroll',() => {
     // console.log("scrollLeft : " + target.scrollLeft);
     console.log("scrollTop : " + target.scrollTop);
     
-});
+}); 
