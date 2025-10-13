@@ -1,5 +1,10 @@
 var target = document.querySelector("#Box");
 
-var Height = target.clientHeight;
-console.log("clientHeight :" + Height);
+target.addEventListener('mousemove', function (abc) {
+    console.clear();
+    var x = abc.x;
+    var y = abc.y;
 
+    console.log("Client :" + x);
+    console.log("Client :" + y);
+})
