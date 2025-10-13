@@ -1,5 +1,5 @@
 var target = document.querySelector("#Box");
 
-var width = target.offsetWidth;
-console.log("offsetWidth :" + width);
+var Height = target.offsetHeight;
+console.log("offsetHeight :" + Height);
 
