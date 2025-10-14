@@ -1,10 +1,10 @@
 
 
-document.addEventListener('mousemove', function (abc) {
+document.querySelector('#box').addEventListener('mousemove', function (abc) {
     console.clear();
-    // var x = abc.pageX;
-    var y = abc.pageY;
+    var x = abc.ScreenX;
+    var y = abc.ScreenY;
 
-    // console.log("Page x :" + x);
-    console.log("Page y :" + y);
+    console.log("Screen x :" + x);
+    console.log("Screen y :" + y);
 });
