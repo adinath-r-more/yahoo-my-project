@@ -1,10 +1,10 @@
+var target = document.querySelector('#box');
 
-
-document.querySelector('#box').addEventListener('mousemove', function (abc) {
+target.addEventListener('mouseover', function(e){
     console.clear();
-    var x = abc.ScreenX;
-    // var y = abc.ScreenY;
+    var x = e.offsetX;
+    var y = e.offsetY;
 
-    console.log("Screen x :" + x);
-    // console.log("Screen y :" + y);
+    console.log('offset X :' + x);
+    console.log('offset Y :' + y);
 });
