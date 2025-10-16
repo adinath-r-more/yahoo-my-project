@@ -1,21 +1,21 @@
-var target = document.querySelector('#box');
+var target = document.querySelector('#mytextbox');
 
-target.addEventListener('click', function(e){
+target.addEventListener('Keydown', function(e){
     console.clear();
 
     var k;
     switch (true){
-        // case e.metaKey:
-        //     k= "Meta Key";
-        //     break;
+        case e.metaKey:
+            k= "Meta Key";
+            break;
 
-            // case e.altKey:
-            // k= "alt Key";
-            // break;
+            case e.altKey:
+            k= "alt Key";
+            break;
 
-            // case e.ctrlKey:
-            // k= "ctrl Key";
-            // break;
+            case e.ctrlKey:
+            k= "ctrl Key";
+            break;
 
             case e.shiftKey:
             k= "Shift Key";
