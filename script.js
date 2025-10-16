@@ -7,7 +7,7 @@ document.querySelector("body").addEventListener('keydown', function(e){
 
     switch (e.key){
         case "ArrowRight":
-        left = left + 5;
+        left = left + 5; 
         break;
 
         case "ArrowLeft":
