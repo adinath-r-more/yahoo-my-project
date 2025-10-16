@@ -9,13 +9,13 @@ target.addEventListener('click', function(e){
         //     k= "Meta Key";
         //     break;
 
-            case e.altKey:
-            k= "alt Key";
-            break;
-
-            // case e.ctrlKey:
-            // k= "ctrl Key";
+            // case e.altKey:
+            // k= "alt Key";
             // break;
+
+            case e.ctrlKey:
+            k= "ctrl Key";
+            break;
 
             // case e.shiftKey:
             // k= "Shift Key";
