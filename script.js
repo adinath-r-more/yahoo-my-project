@@ -1,32 +1,9 @@
-var target = document.querySelector('#mytextbox');
+var target = document.querySelector('#box');
 
-target.addEventListener('Keydown', function(e){
+target.addEventListener('mousedown', function(e){
     console.clear();
 
-    var k;
-    switch (true){
-        case e.metaKey:
-            k= "Meta Key";
-            break;
-
-            case e.altKey:
-            k= "alt Key";
-            break;
-
-            case e.ctrlKey:
-            k= "ctrl Key";
-            break;
-
-            case e.shiftKey:
-            k= "Shift Key";
-            break;
-
-            default:
-                k = "No Key Pressed";
-                break;
-    }
-
-    console.log(k);
-
-    
+    var text = "You Passed Button :" + e.button;
+    console.log(text);
+  
 });
