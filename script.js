@@ -14,13 +14,13 @@ document.querySelector("body").addEventListener('keydown', function(e){
         // left = left - 5;
         // break;
 
-        case "ArrowDown":
-        up = up + 5;
-        break;
-
-        //  case "ArrowUp":
-        // up = up - 5;
+        // case "ArrowDown":
+        // up = up + 5;
         // break;
+
+         case "ArrowUp":
+        up = up - 5;
+        break;
 
         default:
         console.log("Other Key Pressed.");
