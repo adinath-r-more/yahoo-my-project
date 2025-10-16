@@ -13,13 +13,13 @@ target.addEventListener('click', function(e){
             // k= "alt Key";
             // break;
 
-            case e.ctrlKey:
-            k= "ctrl Key";
-            break;
-
-            // case e.shiftKey:
-            // k= "Shift Key";
+            // case e.ctrlKey:
+            // k= "ctrl Key";
             // break;
+
+            case e.shiftKey:
+            k= "Shift Key";
+            break;
 
             default:
                 k = "No Key Pressed";
