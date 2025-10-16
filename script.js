@@ -1,28 +1,38 @@
-var target = document.querySelector('#box');
+var left = 0;
+var up = 0;
 
-target.addEventListener('mousedown', function(e){
+document.querySelector("body").addEventListener('keydown', function(e){
     console.clear();
 
-    var text = e.button;
-    var color;
-    switch (text){
-        case 0:
-        color = "green";
+
+    switch (e.key){
+        case "ArrowRight":
+        left = left + 5;
         break;
 
-        case 1:
-        color = "orange";
-        break;
+        // case "ArrowLeft":
+        // left = left - 5;
+        // break;
 
-        case 2:
-        color = "blue";
-        break;
+        // case "ArrowDown":
+        // up = up + 5;
+        // break;
+
+        //  case "ArrowUp":
+        // up = up - 5;
+        // break;
 
         default:
-        color = "pink";
+        console.log("Other Key Pressed.");
         break;
     }
-    target.style.background = color;
-    // console.log(text);
+    
+    console.log("Left :" + left);
+    console.log("Up :" + up);
+
+    var target = document.querySelector("#box");
+
+    target.style.marginLeft = left + "px";
+    target.style.marginTop = up + "px";
   
 });
