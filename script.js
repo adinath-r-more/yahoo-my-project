@@ -10,13 +10,13 @@ document.querySelector("body").addEventListener('keydown', function(e){
         // left = left + 5;
         // break;
 
-        case "ArrowLeft":
-        left = left - 5;
-        break;
-
-        // case "ArrowDown":
-        // up = up + 5;
+        // case "ArrowLeft":
+        // left = left - 5;
         // break;
+
+        case "ArrowDown":
+        up = up + 5;
+        break;
 
         //  case "ArrowUp":
         // up = up - 5;
