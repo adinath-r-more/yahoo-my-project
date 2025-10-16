@@ -6,17 +6,17 @@ document.querySelector("body").addEventListener('keydown', function(e){
 
 
     switch (e.key){
-        // case "ArrowRight":
-        // left = left + 5;
-        // break;
+        case "ArrowRight":
+        left = left + 5;
+        break;
 
-        // case "ArrowLeft":
-        // left = left - 5;
-        // break;
+        case "ArrowLeft":
+        left = left - 5;
+        break;
 
-        // case "ArrowDown":
-        // up = up + 5;
-        // break;
+        case "ArrowDown":
+        up = up + 5;
+        break;
 
          case "ArrowUp":
         up = up - 5;
