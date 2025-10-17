@@ -14,3 +14,5 @@ function off(){
      target.innerHTML = "Your Offline.";
     target.style.background = "pink";
 }
+
+console.log(navigator.onLine);
