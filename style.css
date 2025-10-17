@@ -9,9 +9,14 @@ body{
 }
 
 #box{
-    width: 200px;
+    width: 400px;
     height: 200px;
-    border: 1px solid blueviolet;
+    border: 5px solid blueviolet;
+    padding: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    background: lightgoldenrodyellow;
+
 }
 
  

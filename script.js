@@ -1,25 +1,11 @@
+var target = document.querySelector("#box");
 
-var target = document.querySelector('#input');
-var box = document.querySelector('#box');
-
-target.addEventListener('copy', function(){
-    console.clear();
-    console.log("You Copy Text.");
+window.addEventListener('offline', function(){
+    target.innerHTML = "Your Offline.";
     target.style.background = "pink";
 });
 
-target.addEventListener('cut', function(){
-    console.clear();
-    console.log("You Cut Text.");
-    target.style.background = "orange";
-});
-
-target.addEventListener('paste', function(){
-    console.clear();
-    console.log("You Pasted Text.");
-    target.style.background = "lightblue";
-});
-
-function copyfunction(){
-    box.style.background = "orange"
-}
+// window.addEventListener('online', function(){
+//     target.innerHTML = "Your Online.";
+//     target.style.background = "lightblue";
+// });
