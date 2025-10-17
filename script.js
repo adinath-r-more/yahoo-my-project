@@ -20,6 +20,6 @@ target.addEventListener('paste', function(){
     target.style.background = "lightblue";
 });
 
-box.addEventListener('copy', function(){
+function copyfunction(){
     box.style.background = "orange"
-    });
+}
