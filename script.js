@@ -15,4 +15,8 @@ function off(){
     target.style.background = "pink";
 }
 
-console.log(navigator.onLine);
+if(navigator.onLine){
+    console.log("Online");
+}else{
+    console.log("Offline");
+}
